@@ -8,11 +8,23 @@ config/config.env
 # Logs
 logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Optional: build/dist folders
+# Build / compiled files
 dist/
 build/
+
+# Optional: editor-specific files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
